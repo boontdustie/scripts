@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+gist -o -p -P -f $1
