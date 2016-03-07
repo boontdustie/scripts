@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+# Uses the npm how2 https://github.com/santinic/how2
+# Defaults to ruby lang
+#
+how2 -l ruby $1

@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+git diff $1 | pbcopy | ~/scripts/gistit $2.diff
