@@ -1,0 +1,2 @@
+#!/bin/zsh
+mplayer http://centova.rockhost.com:8001/stream

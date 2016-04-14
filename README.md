@@ -31,3 +31,4 @@
 
   `how2 -l <lang> <query>`
 
+* `her` - Kicks off mplayer stream for Hollow Earth Radio
