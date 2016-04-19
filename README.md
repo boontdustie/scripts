@@ -2,6 +2,8 @@
 
 * `cmd` - Shows this README, with all custom commands
 
+## Git
+
 * `gistit` - Creates private gist of what is currently on pasteboard.
 
     example usage: `git diff master | pbcopy | gistit`
@@ -19,9 +21,15 @@
 
     `rebase 9fa9jka3`
 
+* `clean-branches` - Delete local branches already merged into master.
+
+## Mailcatcher
+
 * `mc_count` - Count of the email currently in mailcatcher
 
 * `mc_delete` - Deletes all the email currently in mailcatcher
+
+## Stackoverflow
 
 * `r2` - Use how2 stackoverflow cmd to find answers about ruby questions
 
@@ -30,5 +38,7 @@
   If you want to ask a question in a different lang, use:
 
   `how2 -l <lang> <query>`
+
+## Misc
 
 * `her` - Kicks off mplayer stream for Hollow Earth Radio
