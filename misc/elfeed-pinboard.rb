@@ -10,7 +10,13 @@ File.open(ENV['HOME'] + "/git/me/org/todo/links-archive.org" , "a") do |alf|
   lf.each_line do |line|
     if line.include?("[[")
       parts = line.split("[[")[1].split("][")
-      link = parts[0].split("#")[1]
+
+      link = if parts[0].include?("#")
+               parts[0].split("#")[1]
+             else
+               parts[0]
+             end
+
       title = parts[1].gsub("]]", '')
     else
       link = line.gsub("* LINK ", "")
