@@ -39,6 +39,11 @@
 
   `how2 -l <lang> <query>`
 
+## Web
+
+ `serve` - Run simple python server for current dir
+
 ## Misc
 
 * `her` - Kicks off mplayer stream for Hollow Earth Radio
+

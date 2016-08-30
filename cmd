@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-mad /Users/boontdustie/scripts/README.md
+/Users/boontdustie/scripts/lynxer /Users/boontdustie/scripts/README.md

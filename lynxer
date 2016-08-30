@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+# Dependencies
+#
+# brew install pandoc
+# brew install lynx
+
+pandoc $1 | lynx -stdin
