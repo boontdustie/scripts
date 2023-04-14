@@ -46,4 +46,4 @@
 ## Misc
 
 * `her` - Kicks off mplayer stream for Hollow Earth Radio
-
+* `weather` - Show the current weather in your location
